@@ -1,0 +1,55 @@
+.feature-description,
+.feature-title,
+.image-lummi1 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+}
+.image-lummi1 {
+  border-radius: var(--br-base);
+  max-width: 100%;
+  height: 224px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.feature-description,
+.feature-title {
+  text-overflow: ellipsis;
+}
+.feature-title {
+  line-height: 140%;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.feature-description {
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--color-gainsboro);
+  text-align: left;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.cards,
+.copy1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copy1 {
+  width: 360px;
+  height: 86px;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.cards {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 280px;
+  max-width: 360px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-inter);
+}
